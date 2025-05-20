@@ -50,5 +50,8 @@ main img {
 }
 
 footer{
-    padding: auto;
+    padding: 1px;
+    margin-top: 1px;
+    border: 1px;
+    text-align: center;
 }
