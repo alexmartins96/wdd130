@@ -1,3 +1,9 @@
+:root{
+--height: auto;
+--text-aligh: center;
+}
+
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -15,7 +21,7 @@ h1 {
 
 img {
     width: 150px;
-    height: auto;
+    height: var(--height);
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
@@ -36,22 +42,22 @@ aside {
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align: var(--text-aligh);
 }
 
 aside img {
     width: 200px;
-    height: auto;
+    height: var(--height);
 }
 
 main img {
     width: 150px;
-    height: auto;
+    height: var(--height);
 }
 
 footer{
     padding: 1px;
     margin-top: 1px;
     border: 1px;
-    text-align: center;
+    text-align: var(--text-aligh);
 }
