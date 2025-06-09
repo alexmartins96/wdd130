@@ -155,3 +155,210 @@ h1 {
     flex-direction: column;
     align-items: center
 }
+
+.history {
+    text-align: center;
+}
+
+/* Basic Setup */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Fuzzy Bubbles', sans-serif;
+  line-height: 1.5;
+  background-color: #f2f9f9;
+  color: #333;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* Header Styles */
+header.logo {
+  background-color: #429AD2;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header img {
+  max-height: 60px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Layout */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: space-between;
+}
+
+.contact-info,
+.form-section {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  flex: 1 1 380px;
+}
+
+/* Contact Info Section */
+.contact-info h2 {
+  margin-bottom: 0.5rem;
+}
+
+.contact-info p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+.contact-info iframe {
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+/* Form Section */
+.form-section h2 {
+  margin-bottom: 1rem;
+}
+
+form fieldset {
+  border: none;
+  padding: 0;
+}
+
+form legend {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+form label {
+  display: block;
+  margin: 0.75rem 0 0.25rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+form p {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+button[type="submit"] {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.6rem;
+  background-color: #016b6b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #025959;
+}
+
+/* Team Section */
+.team {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.team h2 {
+  margin-bottom: 1rem;
+}
+
+.team-photos {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.team-photos img {
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Footer Styles */
+footer {
+  background-color: #429AD2;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.social-icons {
+  margin-top: 0.5rem;
+}
+
+.social-icons a {
+  margin: 0 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.social-icons img {
+  width: 20px;
+  margin-left: 0.3rem;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  main {
+    flex-direction: column;
+    padding: 1rem;
+  }
+}
