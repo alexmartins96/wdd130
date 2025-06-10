@@ -156,10 +156,12 @@ h1 {
     align-items: center
 }
 
+
 .history {
     text-align: center;
 }
 
+/* CONTACT PAGE STYLING */
 /* Basic Setup */
 * {
   box-sizing: border-box;
@@ -207,13 +209,6 @@ nav a:hover {
 }
 
 /* Main Layout */
-main {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  padding: 2rem;
-  justify-content: space-between;
-}
 
 .contact-info,
 .form-section {
@@ -249,6 +244,7 @@ main {
 /* Form Section */
 .form-section h2 {
   margin-bottom: 1rem;
+ ;
 }
 
 form fieldset {
@@ -324,7 +320,7 @@ button[type="submit"]:hover {
 }
 
 .team-photos img {
-  width: 200px;
+  width: 75px;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
@@ -374,14 +370,6 @@ h1 {
   background-color: #429AD2 ;
 }
 
-main-contact {
-  display: grid;
-  grid-template-columns: 38% auto 20%;
-  align-content:center;
-  grid-template-rows: auto;
-  padding: 1rem;
-}
-
 .footer-contact {
   display: flex;
   justify-content: space-between;
@@ -418,3 +406,12 @@ main-contact {
   display: inline-block;
   color: white;
 }
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 40% 20% 50%;
+  align-content:center;
+  padding: 1rem;
+  justify-content: center;
+}
+
