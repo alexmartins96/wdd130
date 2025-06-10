@@ -222,11 +222,16 @@ main {
   border-radius: 6px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   flex: 1 1 380px;
+  position: relative;
+  
 }
 
 /* Contact Info Section */
 .contact-info h2 {
   margin-bottom: 0.5rem;
+  text-align: center;
+  margin-top: 1rem;
+
 }
 
 .contact-info p {
@@ -361,4 +366,54 @@ footer p {
     flex-direction: column;
     padding: 1rem;
   }
+}
+
+h1 {
+  position:initial;
+  text-align: center;
+  background-color: #429AD2 ;
+}
+
+main-contact {
+  display: grid;
+  grid-template-columns: 38% auto 20%;
+  align-content:center;
+  grid-template-rows: auto;
+  padding: 1rem;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 30px 50px;
+  margin-top: 100px;
+  
+}
+
+.footer-links,
+.footer-info,
+.footer-social {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: underline;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.footer-info p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.footer-social a {
+  margin-right: 10px;
+  display: inline-block;
 }
