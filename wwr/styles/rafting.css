@@ -10,7 +10,7 @@
 
 header {
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    color: #FFFFFF;
     display: grid;
     grid-template-columns: auto 4fr;
     align-items: center;
@@ -549,7 +549,7 @@ h1 {
 }
 
 .trips-page .trips-intro h1 {
-    color: var(--accent1-color);
+    color: #073F6F;
     margin-bottom: 0.5rem;
 }
 
