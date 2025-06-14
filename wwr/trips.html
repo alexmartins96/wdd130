@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Alex Ricardo Martins">
-    <meta name="description" content="Alex Ricardo Martins | WWD 130 - About us page White Water Rafting Project">
-    <title>About us</title>
+    <meta name="description" content="Trips page in White Water Rafting Project">
+    <title>Trips</title>
     <link rel="stylesheet"  href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Fuzzy+Bubbles:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="trips-page">
     <header class="logo">
         <div class="header-content">
         <img src="images/Family-Float-LOGO.png" alt="logo">
@@ -24,56 +24,74 @@
     </div>    
     </header>
     <main>
-        <div class="hero">
-            <img src="images/hero.webp" alt="hero">
-            <h1>Family Float - White Water Rafting</h1>
-            <article class="hero-text">
-                <img src="images/happy-customer.jpg" alt="happy-customer">
-                <p>The purpose of this website is to expand reach, accessibility, and
-                information to families who are interested in learning more about whitewater
-                rafting and how it can be a safe and fun family adventure.</p>
-            </article>
+      <section class="trips-intro">
+          <h1>Adventures Offered</h1>
+          <p>Explore our packages of adventures available made to all levels begginers to pros.</p>
+          <a href="contact.html" class="cta-button">Contact Us to Book</a>
+      </section>
+
+      <div class="trip-details">
+          <article>
+              <h2>Provo River Rafting</h2>
+              <img src="images/rafting-trip-1.jpg" alt="Provo River Trip">
+              <p>A 1.5-hour adrenaline-pumping ride. Perfect for beginners. Tubing also available</p>
+          </article>
+          <article>
+              <h2>Moab River - Fisher Towers Rafting</h2>
+              <img src="images/rafting-trip-2.jpg" alt="Moab River Trip">
+              <p>This is a perfect family trip! Children as young as 5 are invited to participate. Some guides will permit younger kids. The short duration of the trip is good for families uncertain about how their children will react to spending a long amount of time on a raft.</p>
+          </article>
+          <article>
+              <h2>Dolores River Rafting</h2>
+              <img src="images/rafting-trip-3.jpeg" alt="Dolores River Trip">
+              <p>The Dolores River rafting trek lasts around 32 miles. This typically
+                 takes 3 days to complete, but some companies offer longer trips. These trips
+                  offer the advantages of a lesser-known river: small group sizes, remote landscape,
+                   and no river congestion. Trips are only run in April and May (rarely in June).
+                    Rapids are challenging, ranging from classes 2 through 4. The hiking is also
+                     incredible; the land along the river's course ranges from the foothills of the
+                      Rocky Mountains, to the red rock canyons of southeastern Utah. You won't want
+                       to forget your hiking boots and camera on this trip! Meals and snacks are provided;
+                        camping equipment is necessary. Bring your own, or plan to rent from the outfitter company.
+                         Inquire for details.</p>
+                        <p>III - IV - ADVANCED TRIP</p>
+          </article>
         </div>
-        <section class="history">
-            <h2>History</h2>
-            <div class="history-grid">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, dolore!
-            Eveniet provident, laboriosam temporibus nulla reiciendis dolores repellendus ipsam,
-            optio dolorum maxime fugit cupiditate debitis molestiae dicta at explicabo ullam.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam itaque distinctio repellendus
-            dolorem aspernatur et.</p>
-            <img src="images/history.jpg" alt="history">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laudantium corrupti
-            beatae sequi provident, dolor ad deleniti recusandae sed officiis. Qui obcaecati magnam
-            nam quas natus iusto sit veritatis officia? Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit. Quo voluptates distinctio facilis atque sint mini..</p>
-            </div>
-        </section>
-        <section class="adventures">
-            <h2>Adventure Awaits You!</h2>
-            <div class="adventure-gallery">
-                <figure>
-                    <img src="images/rafting-1.jpg" alt="rafting-1">
-                    <figcaption>Calm Lake</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafting-2.webp" alt="rafting-2">
-                    <figcaption>Peace of mind</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafting-3.jpg" alt="rafting-3">
-                    <figcaption>extreme adrenaline</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafting-4.jpg" alt="rafting-4">
-                    <figcaption>safe and reliable</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafting-5.jpg" alt="rafting-5">
-                    <figcaption>fun moment</figcaption>
-                </figure>
-            </div>
-        </section>
+
+      <section class="trips-table">
+          <h2>Trips details</h2>
+          <table>
+              <thead>
+                  <tr>
+                      <th>Trip Name</th>
+                      <th>Duration</th>
+                      <th>Difficulty</th>
+                      <th>Price (Kids 50% OFF)</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>Provo River</td>
+                      <td>1.5 hours</td>
+                      <td>Begginers</td>
+                      <td>$35/person ($40 on weekends)</td>
+                  </tr>
+                  <tr>
+                      <td>Fish Towers</td>
+                      <td>2 hours</td>
+                      <td>begginers and intermediate</td>
+                      <td>$45/person ($55 on weekends)</td>
+                    
+                  </tr>
+                  <tr>
+                      <td>Dolores River</td>
+                      <td>3 DAYS</td>
+                      <td>Class III - IV</td>
+                      <td>$65/person ($75 on weekends)</td>
+                  </tr>
+              </tbody>
+          </table>
+      </section>
     </main>
     <footer>
         <p>©️2025 - Family Float - Alex Ricardo Martins</p>
